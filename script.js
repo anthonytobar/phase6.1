@@ -6,99 +6,79 @@ var e = document.getElementById("change5");
 var f = document.getElementById("change6");
 
 function nextImage(el){
-	if (el.src.match("image/zombies.jpg")){
-		el.src = "image/wow.jpg";
-	} else if (el.src.match("image/wow.jpg")){
+	if (el.src.match("image/dazed3.jpg")){
 		el.src = "image/dazed2.jpg";
 	} else if (el.src.match("image/dazed2.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/wow.jpg";
-	} else if (el.src.match("image/wow.jpg")){
-		el.src = "image/zombies.jpg";
+		el.src = "image/sick.png";
+	} else if (el.src.match("image/sick.png")){
+		el.src = "image/dazed3.jpg";
 	} else {
 		//do nothing
 	}
 }
 
 function nextImage1(el){
-	if (el.src.match("image/wow.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
+	if (el.src.match("image/Sick.png")){
+		el.src = "image/dazed3.jpg";
+	} else if (el.src.match("image/dazed3.jpg")){
 		el.src = "image/dazed2.jpg";
 	} else if (el.src.match("image/dazed2.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/wow.jpg";
+		el.src = "image/Sick.png";
 	} else {
 		//do nothing
 	}
 }
 
 function nextImage2(el){
-	if (el.src.match("image/zombies.jpg")){
-		el.src = "image/wow.jpg";
-	} else if (el.src.match("image/wow.jpg")){
+	if (el.src.match("image/dazed3.jpg")){
 		el.src = "image/dazed2.jpg";
 	} else if (el.src.match("image/dazed2.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/dazed.png";
-	} else if (el.src.match("image/wow.jpg")){
-		el.src = "image/zombies.jpg";
+		el.src = "image/Sick.png";
+	} else if (el.src.match("image/Sick.png")){
+		el.src = "image/dazed3.jpg";
 	} else {
 		//do nothing
 	}
 }
 
 function nextImage3(el){
-	if (el.src.match("image/wow.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/run.jpg";
-	} else if (el.src.match("image/run.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/wow.jpg";
+	if (el.src.match("image/Sick.png")){
+		el.src = "image/dazed3.jpg";
+	} else if (el.src.match("image/dazed3.jpg")){
+		el.src = "image/dazed2.jpg";
+	} else if (el.src.match("image/dazed2.jpg")){
+		el.src = "image/Sick.png";
 	} else {
 		//do nothing
 	}
 }
 
 function nextImage4(el){
-	if (el.src.match("image/run.png")){
-		el.src = "image/wow.jpg";
-	} else if (el.src.match("image/wow.jpg")){
-		el.src = "image/run.jpg";
-	} else if (el.src.match("image/run.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/dazed.png";
-	} else if (el.src.match("image/wow.jpg")){
-		el.src = "image/zombies.jpg";
+	if (el.src.match("image/dazed2.jpg")){
+		el.src = "image/dazed3.jpg";
+	} else if (el.src.match("image/dazed3.jpg")){
+		el.src = "image/Sick.png";
+	} else if (el.src.match("image/Sick.png")){
+		el.src = "image/dazed2.jpg";
 	} else {
 		//do nothing
 	}
 }
 
 function nextImage5(el){
-	if (el.src.match("image/wow.jpg")){
-		el.src = "image/zombies.jpg";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/run.jpg";
-	} else if (el.src.match("image/run.jpg")){
-		el.src = "image/wow.png";
-	} else if (el.src.match("image/zombies.jpg")){
-		el.src = "image/wow.png";
-	} else if (el.src.match("image/wow.jpg")){
-		el.src = "image/zombies.jpg";
+	if (el.src.match("image/dazed2.jpg")){
+		el.src = "image/dazed3.jpg";
+	} else if (el.src.match("image/dazed3.jpg")){
+		el.src = "image/Sick.png";
+	} else if (el.src.match("image/Sick.png")){
+		el.src = "image/dazed2.jpg";
 	} else {
 		//do nothing
 	}
 }
 
 
-function nextImage5(el){
+function nextImage6(el){
 	if (el.src.match("image/wow.jpg")){
 		el.src = "image/zombies.jpg";
 	} else if (el.src.match("image/zombies.jpg")){
